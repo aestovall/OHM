@@ -4,7 +4,7 @@ require(viridis)
 require(rgl)
 library(fpc)
 
-source("R/2021_OHM_FUN.R")
+source("R/2022_OHM_FUN.R")
 
 files.trunk<-list.files("data", pattern="trunk.csv", full.names = TRUE, recursive=TRUE)
 files.branch<-list.files("data", pattern="branch.csv", full.names = TRUE, recursive=TRUE)
