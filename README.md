@@ -86,9 +86,9 @@ print(paste("Branch tree biomass estimate is",
             OHM.output$biomass[2]
 ))
 ```
-##[1] "Total tree biomass estimate is 1012.92835037034"
-##[1] "Trunk tree biomass estimate is 504.203603733976"
-##[1] "Branch tree biomass estimate is 508.724746636365"
+  ## [1] "Total tree biomass estimate is 1012.92835037034"
+  ## [1] "Trunk tree biomass estimate is 504.203603733976"
+  ## [1] "Branch tree biomass estimate is 508.724746636365"
 
 ### References
 Stovall, A.E.L., Vorster, A.G., Anderson, R.S., Evangelista, P.H., Shugart, H.H., 2017. Non-destructive aboveground biomass estimation of coniferous trees using terrestrial LiDAR. Remote Sensing of Environment 200, 31–42. https://doi.org/10.1016/j.rse.2017.08.013
