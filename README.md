@@ -92,9 +92,13 @@ print(paste("Branch tree biomass estimate is",
             OHM.output$biomass[2]
 ))
 ```
-  ## [1] "Total tree biomass estimate is 707 kg"
-  ## [1] "Trunk tree biomass estimate is 504 kg"
-  ## [1] "Branch tree biomass estimate is 203 kg"
+  ### [1] "Total tree biomass estimate is 342 kg"
+  ### [1] "Trunk tree biomass estimate is 249 kg"
+  ### [1] "Branch tree biomass estimate is 93 kg"
+  
+From this wee can see that the total tree-level biomass estimate using OHM had ~18% error or overpredicted by around 52 kg. In our study we found the TLS-based biomass estimates had an RMSE of ~19% across all species, ranging from 13-24%, depending on species.
+
+If you have destructive data and TLS data for coniferous trees give OHM a try and let us know your results!
 
 ### References
 Stovall, A.E.L., Vorster, A.G., Anderson, R.S., Evangelista, P.H., Shugart, H.H., 2017. Non-destructive aboveground biomass estimation of coniferous trees using terrestrial LiDAR. Remote Sensing of Environment 200, 31–42. https://doi.org/10.1016/j.rse.2017.08.013
