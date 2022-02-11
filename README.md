@@ -62,7 +62,7 @@ plot(OHM.output$all.circle.fits$r, OHM.output$all.circle.fits$z, col="grey", mai
      ylab='Height (m)', xlab= "Radius (m)")
 lines(OHM.output$filtered.circle.fits$r, OHM.output$filtered.circle.fits$z, col="forestgreen")
 ```
-![](https://github.com/aestovall/OHM/readme/trunk_radius.png)
+![](readme/trunk_radius.png)
 
 
 We can also look at the cumulative biomass of individual trees with height:
@@ -72,7 +72,7 @@ plot(OHM.output$trunk.volume$z, cumsum(OHM.output$trunk.volume$vol), col="white"
 lines(OHM.output$trunk.volume$z, cumsum(OHM.output$trunk.volume$vol), col="brown")
 lines(OHM.output$branch.volume$z, cumsum(OHM.output$branch.volume$vol.log), col="forestgreen")
 ```
-![](https://github.com/aestovall/OHM/readme/tree_volume.png)
+![](readme/tree_volume.png)
 
 Finally, what is the component biomass of the modeled tree? 
 ```{r}
