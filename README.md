@@ -10,6 +10,12 @@ First we must separate isolated tree TLS data into trunk and branch point clouds
 
 Start with a view above or below the tree and use the scissor tool to clip the interior trunk points. Continue to clip as much of the branch points from the trunk point cloud as possible. When complete, save the branch and trunk point clouds as separate files (.csv, .asc, or similar). These files will be used with the OHM algorithm to estimate tree-level biomass.
 
+In a recent study, we followed this approach, separating trunk and tree crown, allowing us to estimate biomass with the OHM algorithm. Here you can see three example trees of different study species:
+
+![](readme/tls.png)
+
+We will be using the Lodgepole Pine tree pictured on the right in this example.
+
 ### Setup
 ```{r echo=T, results='hide'}
 require(circular)
