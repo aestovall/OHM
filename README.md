@@ -71,7 +71,7 @@ lines(OHM.output$filtered.circle.fits$r, OHM.output$filtered.circle.fits$z, col=
 ![](readme/trunk_radius.png)
 
 
-We can also look at the cumulative biomass of individual trees with height:
+We can also look at the cumulative component biomass (brown = trunk; green = crown) of individual trees with height:
 ```{r}
 plot(OHM.output$trunk.volume$z, cumsum(OHM.output$trunk.volume$vol), col="white", xlab='Height (m)', ylab= "Volume (m^3)", 
      main="Cumulative Tree \n Component Volume")
