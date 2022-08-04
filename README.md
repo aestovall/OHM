@@ -1,7 +1,7 @@
 
 
 # Modeling Conifer Biomass from Terrestrial Laser Scanning Data with OHM
-Algorithms described in "Can terrestrial laser scanning improve or replace destructive calibration data for species-specific allometric biomass equations?" (Stovall et al. Submitted) for estimating tree-level component biomass from terrestrial laser scanning (TLS) data. 
+Algorithms described in "Developing non-destructive species-specific tree allometry with terrestrial laser scanning" (Stovall et al. Submitted) for estimating tree-level component biomass from terrestrial laser scanning (TLS) data. 
 
 ## Getting Started
 
