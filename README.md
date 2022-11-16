@@ -1,7 +1,7 @@
 
 
 # Modeling Conifer Biomass from Terrestrial Laser Scanning Data with OHM
-Algorithms described in "Developing non-destructive species-specific tree allometry with terrestrial laser scanning" (Stovall et al. Submitted) for estimating tree-level component biomass from terrestrial laser scanning (TLS) data. 
+Algorithms described in "Developing non-destructive species-specific tree allometry with terrestrial laser scanning" ([Stovall et al. 2022](http://bit.ly/3V2UAnW)) for estimating tree-level component biomass from terrestrial laser scanning (TLS) data. 
 
 ## Getting Started
 
@@ -96,7 +96,7 @@ print(paste("Branch tree biomass estimate is",
   ### [1] "Trunk tree biomass estimate is 249 kg"
   ### [1] "Branch tree biomass estimate is 93 kg"
   
-From this wee can see that the total tree-level biomass estimate using OHM had ~18% error or overpredicted by around 52 kg. In our study we found the TLS-based biomass estimates had an RMSE of ~19% across all species, ranging from 13-24%, depending on species.
+From this we can see that the total tree-level biomass estimate using OHM had ~18% error or overpredicted by around 52 kg. In our study we found the TLS-based biomass estimates had an RMSE of ~19% across all species, ranging from 13-24%, depending on species.
 
 If you have destructive data and TLS data for coniferous trees give OHM a try and let us know your results!
 
